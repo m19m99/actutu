@@ -4,8 +4,8 @@ session_start();
 
 try {
     $dsn = 'mysql:dbname=stationnementciq_bdd;dbport=3306;host=mysql-stationnementciq.alwaysdata.net';
-    $user = '244062';
-    $mdp = 'bddsciq1@';
+    $user = 'XXXXXXX';
+    $mdp = 'XXXXXXX';
     $conn = new PDO($dsn, $user, $mdp);
 } catch (Exception $e) {
 

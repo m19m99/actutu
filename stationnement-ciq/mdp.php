@@ -3,8 +3,8 @@
 session_start();
 
 $dsn = 'mysql:dbname=stationnementciq_bdd;dbport=3306;host=mysql-stationnementciq.alwaysdata.net';
-$user = '244062';
-$mdp = 'bddsciq1@';
+$user = 'XXXXXXX';
+$mdp = 'XXXXXXX';
 $conn = new PDO($dsn, $user, $mdp);
 
 //récupération des données HTML
