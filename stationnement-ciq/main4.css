@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color:#07316F ;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header button{
+    border: none;
+    padding: 1%;
+}
+
+main{
+
+    height: auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin: 15% 0;
+
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#btn1{
+    color: #000;
+}
+
+#hello{
+
+}
+
+li{
+    list-style-type: none;
+    font-size: 24px;
+}
+
+#btn{
+
+    padding: 20px 60px;
+    background-color: #469E38;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn2{
+
+    color: #fff;
+}
+
+#vert{
+    margin-top: 5%;
+}
+
+.ligne{
+    border-left: 2px solid #000;
+    display: inline-block;
+    height: 300px;
+    margin: 0 0 0 70px;
+  }
+
+footer{
+
+    position: absolute;
+    background-color: #07316F ;
+    color: #fff;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 780px) {
+
+    main{
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main section{
+        flex-direction: column;
+    }
+
+    .ligne{
+        display: none;
+    }
+}
